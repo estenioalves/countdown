@@ -5,7 +5,7 @@ t = input("Digite o tempo (em segundos): ")
 if t.isdigit():
     t = int(t)
 else:
-    print("Entrada Inváida!")
+    print("Entrada Inválida!")
     quit()
 
 while t:
